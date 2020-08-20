@@ -6,7 +6,7 @@ import stock2 from "../img/image3.jpg";
 import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
-
+import styled from 'styled-components';
 
 class Temp_Portfolio extends React.Component {
   constructor() {
@@ -112,12 +112,12 @@ class Temp_Portfolio extends React.Component {
                                           {content.name}
                                         </a>
                                       </h2>
-                                      <div className="w-more">
-                                        <span className="w-ctegory">
-                                          <u>
-                                            <a href={content.linktogithub}>Github Repo</a>
-                                          </u>
-                                        </span> 
+                                      <div>
+                                          <h6>
+                                            <a href={content.linktogithub}>
+                                              <HoverText>Github Repo</HoverText>
+                                            </a>  
+                                          </h6>                                        
                                       </div>
                                       <div className="w-more">
                                         <span className="w-ctegory">
@@ -184,4 +184,12 @@ class Temp_Portfolio extends React.Component {
   }
 }
 
+const HoverText = styled.p`
+	color: #000;
+	:hover {
+		color: #0078ff;
+		cursor: pointer;
+	}
+`
+  
 export default Temp_Portfolio;

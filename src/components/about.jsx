@@ -1,5 +1,6 @@
 import React from "react";
 import myImage from "../img/myImage.png";
+import styled from 'styled-components';
 
 class About extends React.Component {
   constructor() {
@@ -62,7 +63,7 @@ class About extends React.Component {
           id: "first-p-about",
           // heading: "Relevant Coursework:",
           content:
-            "I'm a rising sophomore at Yale double majoring in Computer Science/Economics and Statistics."
+            "I'm a sophomore at Yale double majoring in Computer Science/Economics and Statistics."
         },
         {
           id: "second-p-about",
@@ -74,7 +75,7 @@ class About extends React.Component {
           id: "third-p-about",
           heading: "Extracurriculars",
           content:
-            "Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, Stars I"
+            "Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, TSAI City Student Advisory Board, Stars I"
         },
         {
           id: "fourth p-about",
@@ -222,11 +223,15 @@ class About extends React.Component {
 
                       {this.state.work_experience.map(content => {
                         return (
-                          <div>
+                          <div className="w-more">
                             <h5>{content.role}</h5>
-                            <u>
-                              <h6><a href={content.linktocompany}>{content.company}</a></h6>
-                            </u>
+                            <h6 >
+                              <a href={content.linktocompany}>
+                                <HoverText>
+                                  {content.company}
+                                </HoverText>  
+                              </a>
+                            </h6>
                             <h6>{content.date}</h6>
                             <p className="lead" key={content.id}>
                               {content.content}
@@ -243,5 +248,14 @@ class About extends React.Component {
     );
   }
 }
+
+
+const HoverText = styled.p`
+	color: #000;
+	:hover {
+		color: #0078ff;
+		cursor: pointer;
+	}
+`
 
 export default About;
