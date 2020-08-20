@@ -234,6 +234,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                
                 <a
                   href={stock1}
                   data-lightbox="gallery-medlingos"

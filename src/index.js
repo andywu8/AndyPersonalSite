@@ -27,7 +27,7 @@ import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
-
+import WorkExperience from './components/WorkExperience'
 
 
 ReactDOM.render(
@@ -35,6 +35,7 @@ ReactDOM.render(
         <Navbar />
         <Intro />
         <About />
+        <WorkExperience />
         <Portfolio />
         <Contact />
         <BackToTop />

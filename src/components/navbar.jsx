@@ -4,7 +4,7 @@ import $ from "jquery";
 import logo1 from "../img/male1.png";
 import logo2 from "../img/male.png";
 
-class Navbar extends React.Component {
+class About extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -144,4 +144,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default About;
