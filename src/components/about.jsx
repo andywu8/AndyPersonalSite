@@ -60,28 +60,45 @@ class About extends React.Component {
       about_me: [
         {
           id: "first-p-about",
+          // heading: "Relevant Coursework:",
           content:
             "I'm a rising sophomore at Yale double majoring in Computer Science/Economics and Statistics."
         },
         {
           id: "second-p-about",
+          heading: "Interests",
           content:
-            "Interests: Reading, running, watching Youtube, and watching films. Some of my favorite films are Dark Knight, Casa Blance, and Jurassic Park"
+            "Reading, running, watching Youtube, and watching films. Some of my favorite films are Dark Knight, Casa Blanca, and Jurassic Park"
         },
         {
           id: "third-p-about",
+          heading: "Extracurriculars",
           content:
-            "Extracurriculars: Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, Stars I"
+            "Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, Stars I"
         },
         {
           id: "fourth p-about",
+          heading: "Volunteer Work",
           content:
-            "Extracurriculars: Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, Stars I"
+            "Event Producer Intern for Human Growth Foundation, Key Club President, Read Write Discover Branch Coordinator"
         },
         {
           id: "fifth p-about",
+          heading: "Awards",
           content:
-            "Volunteering: Event Producer Intern, Key Club President, Read Write Discover Branch Coordinator"
+            "LEDA Career Fellow (McKinsey Case Competition Winner), Nation Merit Scholar, National AP Scholar, AP Scholar with Distinction, George Lorbeer Scholar, Lee Embry Scholar"
+        },
+        {
+          id: "sixth p-about",
+          heading: "Languages",
+          content:
+            "English(Fluent), Cantonese(Proficient), Italian(Novice)"
+        },
+        {
+          id: "seventh p-about",
+          heading: "Relevant Coursework",
+          content:
+            "Data Structures and Programming Techniques, Mathematical Tools for COmputer Science, Linear Algebra with Applications, Computational Intelligence for Games, Computational Vision and Biological Perception"
         }
       ],
       work_experience: [
@@ -181,14 +198,16 @@ class About extends React.Component {
                       </div>
                       {this.state.about_me.map(content => {
                         return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
+                          <div>
+                            <h6>{content.heading}</h6>
+                            <p key={content.id}>
+                              {content.content}
+                            </p>
+                            <hr></hr>
+                          </div>
                         );
                       })}
-                      <br></br>
-                      <br></br>
-                      <br></br>
+
                     </div>
                   </div>
                   
