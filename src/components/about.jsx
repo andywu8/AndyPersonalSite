@@ -189,10 +189,18 @@ class About extends React.Component {
                       <br></br>
                       <br></br>
                       <br></br>
-
-                      <div className="title-box-2">
+                    </div>
+                  </div>
+                  
+                </div>
+                    <br></br>
+                    <br></br>
+                    <div className="title-box-2">
+                        <center>
                         <h5 className="title-left">Work Experience</h5>
+                        </center>
                       </div>
+
                       {this.state.work_experience.map(content => {
                         return (
                           <div>
@@ -208,9 +216,6 @@ class About extends React.Component {
                           </div>
                         );
                       })}
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
