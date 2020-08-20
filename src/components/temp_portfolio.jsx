@@ -15,24 +15,46 @@ class Temp_Portfolio extends React.Component {
       portfolio: [
         {
           name: "Join Us Web Application",
+          linktowebsite:"",
+          linktogithub:"https://github.com/andywu8/JoinUs",
           description: "NodeJS, Express, HTML, CSS, JS",
           image: stock1   
         },
         {
           name: "To Do List",
+          linktowebsite:"",
+          linktogithub:"https://github.com/andywu8/ToDoList",
           description: "",
           image: stock1 
         },
         {
           name: "Blog and Vlog",
+          linktowebsite:"https://andy-blog-website.herokuapp.com/",
+          linktogithub:"https://github.com/andywu8/my-blog",
           description: "",
           image: stock1    
         },
         {
-          name: "To Do List",
+          name: "Mail Chimp Registration Link",
+          linktowebsite:"https://newsletter-signup-andy.herokuapp.com/",
+          linktogithub:"https://github.com/andywu8/MailChimp_API",
           description: "",
           image: stock1
-        }
+        },
+        {
+          name: "Color Guessing Game",
+          linktowebsite:"",
+          linktogithub:"https://github.com/andywu8/Color-Guessing-Game",
+          description: "",
+          image: stock1
+        },
+        {
+          name: "Music Player App",
+          linktowebsite:"",
+          linktogithub:"https://github.com/andywu8/MusicPlayer_IOS",
+          description: "IOS",
+          image: stock1
+        },
       ]
     };
   }
@@ -76,17 +98,27 @@ class Temp_Portfolio extends React.Component {
                 <div className="row">
                       {this.state.portfolio.map(content => {
                         return (
-                            
                             <div className="col-md-4">
                             <div className="work-box">
-                              <a href={content.image} data-lightbox="gallery-mf">
+                              {/* <a href={content.image} data-lightbox="gallery-mf"> */}
                                 <div className="work-img">
                                   <img src={content.image} alt="" className="img-fluid" />
                                 </div>
                                 <div className="work-content">
                                   <div className="row">
                                     <div className="col-sm-8">
-                                      <h2 className="w-title">{content.name}</h2>
+                                      <h2  className="w-title">
+                                        <a href = {content.linktowebsite}>
+                                          {content.name}
+                                        </a>
+                                      </h2>
+                                      <div className="w-more">
+                                        <span className="w-ctegory">
+                                          <u>
+                                            <a href={content.linktogithub}>Github Repo</a>
+                                          </u>
+                                        </span> 
+                                      </div>
                                       <div className="w-more">
                                         <span className="w-ctegory">
                                           {content.description}
@@ -100,7 +132,7 @@ class Temp_Portfolio extends React.Component {
                                     </div>
                                   </div>
                                 </div>
-                              </a>
+                              {/* </a> */}
                               <a
                                 href={stock1}
                                 data-lightbox="gallery-mf"
