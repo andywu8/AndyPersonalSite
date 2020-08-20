@@ -6,15 +6,6 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -22,22 +13,48 @@ class About extends React.Component {
           value: "80"
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "ReactNative_skill",
+          content: "ReactNative",
           porcentage: "80%",
           value: "80"
+        },
+        {
+          id: "Python_skill",
+          content: "Python",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
+          id: "JavaScript_skill",
+          content: "JavaScript",
+          porcentage: "80%",
+          value: "80"
+        },
+        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        {
+          id: "Express",
+          content: "Express",
+          porcentage: "70%",
+          value: "70"
+        },
+        {
+          id: "Node_JS",
+          content: "NodeJS",
+          porcentage: "60%",
+          value: "60"
+        },
+        {
+          id: "Mongo",
+          content: "Mongo",
+          porcentage: "60%",
+          value: "60"
+        },
+        {
+          id: "Swift",
+          content: "Swift",
+          porcentage: "25%",
+          value: "25"
         }
       ],
       about_me: [
@@ -49,12 +66,60 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Interests: Reading, running, watching Youtube, and watching films. Some of my favorite films are Dark Knight, Casa Blance, and Jurassic Park"
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Extracurriculars: Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, Stars I"
+        },
+        {
+          id: "fourth p-about",
+          content:
+            "Extracurriculars: Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, Stars I"
+        },
+        {
+          id: "fifth p-about",
+          content:
+            "Volunteering: Event Producer Intern, Key Club President, Read Write Discover Branch Coordinator"
+        }
+      ],
+      work_experience: [
+        {
+          role:"Software Engineer Intern",
+          company: "Avenue",
+          linktocompany: "https://www.linkedin.com/company/avenu1/",
+          date: "August-Present",
+          id: "first-p-about",
+          content:
+            "Currently working at a startup and developing an event planning app in React Native and Firestore."
+        },
+        {
+          role:"Full Stack Developer",
+          company: "PPE4NYC",
+          linktocompany: "https://ppe4nyc.org/",
+          date: "August-Present",
+          id: "second-p-about",
+          content:
+            "Currently working at a nonprofit and developing the website which has enabled PPE4NYC to deliver 10,000 PPE to people in need. Currently working on a content management system in Javascript. Also developing in ReactJS/Gatsby."
+        },
+        {
+          role:"Machine Learning Intern",
+          company: "Yale Intelligent Computing Lab",
+          linktocompany: "https://intelligentcomputinglab.yale.edu/",
+          date: "May-August",
+          id: "third-p-about",
+          content:
+            "Trained and evaluated performance of spiking and artificial neural networks. Coded in Pytorch on Google Colab. Research found that spiking neural networks, a novel neural network that ran on a spiking time dependent framework had more adversarial robustness and energy efficiency than the artificial neural network"
+        },
+        {
+          role:"Open Climate Collabathon Coordinator",
+          company: "Yale OpenLab",
+          linktocompany: "https://www.collabathon.openclimate.earth/",
+          date: "February-Present",
+          id: "fourth p-about",
+          content:
+            "Planned, marketed, and handled logistics of a global open source initiative to tackle climate change through blockchain solutions. Led the node iniative and onboarded 14 nodes. Created 2 slide decks and improved node registration system making it easier to onboard."
         }
       ]
     };
@@ -119,6 +184,28 @@ class About extends React.Component {
                           <p className="lead" key={content.id}>
                             {content.content}
                           </p>
+                        );
+                      })}
+                      <br></br>
+                      <br></br>
+                      <br></br>
+
+                      <div className="title-box-2">
+                        <h5 className="title-left">Work Experience</h5>
+                      </div>
+                      {this.state.work_experience.map(content => {
+                        return (
+                          <div>
+                            <h5>{content.role}</h5>
+                            <u>
+                              <h6><a href={content.linktocompany}>{content.company}</a></h6>
+                            </u>
+                            <h6>{content.date}</h6>
+                            <p className="lead" key={content.id}>
+                              {content.content}
+                            </p>
+                            <hr></hr>
+                          </div>
                         );
                       })}
                     </div>

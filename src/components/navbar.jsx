@@ -123,11 +123,6 @@ class About extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work Experience
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
                   Portfolio
                 </a>
               </li>
