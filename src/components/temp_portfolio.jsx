@@ -185,9 +185,9 @@ class Temp_Portfolio extends React.Component {
 }
 
 const HoverText = styled.p`
-	color: #000;
+	color: #0078ff;
 	:hover {
-		color: #0078ff;
+		color: #000;
 		cursor: pointer;
 	}
 `
