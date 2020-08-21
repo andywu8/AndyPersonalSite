@@ -107,7 +107,7 @@ class About extends React.Component {
           role:"Software Engineer Intern",
           company: "Avenue",
           linktocompany: "https://www.linkedin.com/company/avenu1/",
-          date: "August-Present",
+          date: "August 2020 - Present",
           id: "first-p-about",
           content:
             "Currently working at a startup and developing an event planning app in React Native and Firestore."
@@ -116,7 +116,7 @@ class About extends React.Component {
           role:"Full Stack Developer",
           company: "PPE4NYC",
           linktocompany: "https://ppe4nyc.org/",
-          date: "August-Present",
+          date: "August 2020 - Present",
           id: "second-p-about",
           content:
             "Currently working at a nonprofit and developing the website which has enabled PPE4NYC to deliver 10,000 PPE to people in need. Currently working on a content management system in Javascript. Also developing in ReactJS/Gatsby."
@@ -125,7 +125,7 @@ class About extends React.Component {
           role:"Machine Learning Intern",
           company: "Yale Intelligent Computing Lab",
           linktocompany: "https://intelligentcomputinglab.yale.edu/",
-          date: "May-August",
+          date: "May 2020 - July 2020",
           id: "third-p-about",
           content:
             "Trained and evaluated performance of spiking and artificial neural networks. Coded in Pytorch on Google Colab. Research found that spiking neural networks, a novel neural network that ran on a spiking time dependent framework had more adversarial robustness and energy efficiency than the artificial neural network"
@@ -134,7 +134,7 @@ class About extends React.Component {
           role:"Open Climate Collabathon Coordinator",
           company: "Yale OpenLab",
           linktocompany: "https://www.collabathon.openclimate.earth/",
-          date: "February-Present",
+          date: "February 2020 - Present",
           id: "fourth p-about",
           content:
             "Planned, marketed, and handled logistics of a global open source initiative to tackle climate change through blockchain solutions. Led the node iniative and onboarded 14 nodes. Created 2 slide decks and improved node registration system making it easier to onboard."
