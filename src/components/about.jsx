@@ -63,19 +63,19 @@ class About extends React.Component {
           id: "first-p-about",
           // heading: "Relevant Coursework:",
           content:
-            "I'm a sophomore at Yale double majoring in Computer Science/Economics and Statistics."
+            "I'm a junior at Yale double majoring in Computer Science/Economics and Statistics."
         },
         {
           id: "second-p-about",
           heading: "Interests",
           content:
-            "Reading, running, watching Youtube, and watching films. Some of my favorite films are Dark Knight, Casa Blanca, and Jurassic Park"
+            "Reading fantasy books, running, playing basketball, watching Youtube, and watching films. Some of my favorite films are Dark Knight, Casa Blanca, and Jurassic Park"
         },
         {
           id: "third-p-about",
           heading: "Extracurriculars",
           content:
-            "Vice President of Yale Computer Society, Logistics Chair of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, TSAI City Student Advisory Board, Stars I"
+            "President of Yale Computer Society, Director of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, TSAI City Student Advisory Board, Stars I"
         },
         {
           id: "fourth p-about",
@@ -99,19 +99,10 @@ class About extends React.Component {
           id: "seventh p-about",
           heading: "Relevant Coursework",
           content:
-            "Data Structures and Programming Techniques, Mathematical Tools for COmputer Science, Linear Algebra with Applications, Computational Intelligence for Games, Computational Vision and Biological Perception"
+            "Intro to Systems Programming, Data Structures and Programming Techniques, Mathematical Tools for COmputer Science, Linear Algebra with Applications, Computational Intelligence for Games, Computational Vision and Biological Perception"
         }
       ],
       work_experience: [
-        {
-          role:"Software Engineer Intern",
-          company: "Avenue",
-          linktocompany: "https://www.linkedin.com/company/avenu1/",
-          date: "August 2020 - Present",
-          id: "first-p-about",
-          content:
-            "Currently working at a startup and developing an event planning app in React Native and Firestore."
-        },
         {
           role:"Full Stack Developer",
           company: "PPE4NYC",
@@ -120,6 +111,24 @@ class About extends React.Component {
           id: "second-p-about",
           content:
             "Currently working at a nonprofit and developing the website which has enabled PPE4NYC to deliver 10,000 PPE to people in need. Currently working on a content management system in Javascript. Also developing in ReactJS/Gatsby."
+        },
+        {
+          role:"Software Engineer Intern",
+          company: "State Farm",
+          linktocompany: "https://jobs.statefarm.com/main/career-areas/technology-and-user-experience-careers",
+          date: "May 2021 - August 2021",
+          id: "second-p-about",
+          content:
+            "Created an API for the cloud onboarding team, which expedited the onboarding process through generated a report which allowed for easy tracking of users and their onboarding status. "
+        },
+        {
+          role:"Software Engineering Intern",
+          company: "Bright Building",
+          linktocompany: "https://jobs.statefarm.com/main/career-areas/technology-and-user-experience-careers",
+          date: "January 2021 - August 2021",
+          id: "second-p-about",
+          content:
+            "Revamped the sidebar using ReactJS and NodeJS and also worked on data pipelines in Flask and Python."
         },
         {
           role:"Machine Learning Intern",
