@@ -67,6 +67,12 @@ class About extends React.Component {
         },
         {
           id: "second-p-about",
+          heading: "Programming Languages",
+          content:
+            "Programming: React (JS, Native), Javascript (Node, Express), Mongo, Python (Pytorch, Flask), AWS, R, HTML, CSS, C, Java"
+        },
+        {
+          id: "second-p-about",
           heading: "Interests",
           content:
             "Reading fantasy books, running, playing basketball, watching Youtube, and watching films. Some of my favorite films are La La Land, Dark Knight, and Jurassic Park"
@@ -179,7 +185,7 @@ class About extends React.Component {
                     </div>
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
+                      {/* {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
@@ -198,11 +204,9 @@ class About extends React.Component {
                             </div>
                           </React.Fragment>
                         );
-                      })}
+                      })} */}
                     </div>
                   </div>
-                  <div className="col-md-6">
-
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
@@ -217,9 +221,7 @@ class About extends React.Component {
                           </div>
                         );
                       })}
-
                     </div>
-                  </div>
                   
                     <br></br>
                     <br></br>

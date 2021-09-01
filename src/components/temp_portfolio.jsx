@@ -26,21 +26,21 @@ class Temp_Portfolio extends React.Component {
           name: "Predict.ai",
           linktowebsite:"https://github.com/andywu8/hackday-predict.ai",
           linktogithub:"https://github.com/andywu8/hackday-predict.ai",
-          description: "State Farm Hackday. NodeJS, Express, HTML, CSS, Javascript",
+          description: "Built at State Farm Hackday. NodeJS, Express, HTML, CSS, Javascript",
           image: predictai_pic
         },
         {
           name: "Simmer",
           linktowebsite:"https://simmer-hackthenorth.netlify.app/",
           linktogithub:"https://github.com/andywu8/simmer",
-          description: "Hack the North. ReactJS, Vonage API, Spoonacular API, Firebase. I worked on the Firebase backend.",
+          description: "Built at Hack the North. ReactJS, Vonage API, Spoonacular API, Firebase. I worked on the Firebase backend.",
           image: simmer_pic
         },
         {
           name: "LocalScale",
-          linktowebsite:"localscale.netlify.app",
+          linktowebsite:"https://localscale.netlify.app/",
           linktogithub:"https://github.com/andywu8/localscale",
-          description: "Hack the North. Built using Figma, HTML, CSS, Javascript, and Firebase. I worked on the firebase login system, created the routes, added in user profile customization, created payment page, linked all of the pages together",
+          description: "Built at Hack the North. Built using Figma, HTML, CSS, Javascript, and Firebase. I worked on the firebase login system, created the routes, added in user profile customization, created payment page, linked all of the pages together",
           image: localscale_pic
         },
         {
