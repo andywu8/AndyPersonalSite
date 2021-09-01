@@ -69,7 +69,7 @@ class About extends React.Component {
           id: "second-p-about",
           heading: "Interests",
           content:
-            "Reading fantasy books, running, playing basketball, watching Youtube, and watching films. Some of my favorite films are Dark Knight, Casa Blanca, and Jurassic Park"
+            "Reading fantasy books, running, playing basketball, watching Youtube, and watching films. Some of my favorite films are La La Land, Dark Knight, and Jurassic Park"
         },
         {
           id: "third-p-about",
@@ -93,7 +93,7 @@ class About extends React.Component {
           id: "sixth p-about",
           heading: "Languages",
           content:
-            "English(Fluent), Cantonese(Proficient), Italian(Novice)"
+            "English(Fluent), Cantonese(Proficient), Mandarin(Proficient), Italian(Elementary)"
         },
         {
           id: "seventh p-about",
@@ -106,7 +106,7 @@ class About extends React.Component {
         {
           role:"Full Stack Developer",
           company: "PPE4NYC",
-          linktocompany: "https://ppe4nyc.org/",
+          linktocompany: "https://www.ppe4all.net/",
           date: "August 2020 - Present",
           id: "second-p-about",
           content:
@@ -124,7 +124,7 @@ class About extends React.Component {
         {
           role:"Software Engineering Intern",
           company: "Bright Building",
-          linktocompany: "https://jobs.statefarm.com/main/career-areas/technology-and-user-experience-careers",
+
           date: "January 2021 - August 2021",
           id: "second-p-about",
           content:
@@ -143,7 +143,7 @@ class About extends React.Component {
           role:"Open Climate Collabathon Coordinator",
           company: "Yale OpenLab",
           linktocompany: "https://www.collabathon.openclimate.earth/",
-          date: "February 2020 - Present",
+          date: "February 2020 - December 2020",
           id: "fourth p-about",
           content:
             "Planned, marketed, and handled logistics of a global open source initiative to tackle climate change through blockchain solutions. Led the node iniative and onboarded 14 nodes. Created 2 slide decks and improved node registration system making it easier to onboard."
@@ -202,7 +202,7 @@ class About extends React.Component {
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
+
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
@@ -221,7 +221,6 @@ class About extends React.Component {
                     </div>
                   </div>
                   
-                </div>
                     <br></br>
                     <br></br>
                     <div className="title-box-2">

@@ -12,6 +12,9 @@ import blogpic from "../img/blog.png";
 import newsletterpic from "../img/newsletter.png"
 import colorgamepic from "../img/colorgame.png";
 import musicplayerpic from "../img/musicplayer.png";
+import localscale_pic from "../img/localscale_pic.png";
+import simmer_pic from "../img/simmer_pic.png";
+import predictai_pic from "../img/predictai_pic.png";
 import styled from 'styled-components';
 
 class Temp_Portfolio extends React.Component {
@@ -19,6 +22,27 @@ class Temp_Portfolio extends React.Component {
     super();
     this.state = {
       portfolio: [
+        {
+          name: "Predict.ai",
+          linktowebsite:"https://github.com/andywu8/hackday-predict.ai",
+          linktogithub:"https://github.com/andywu8/hackday-predict.ai",
+          description: "State Farm Hackday. NodeJS, Express, HTML, CSS, Javascript",
+          image: predictai_pic
+        },
+        {
+          name: "Simmer",
+          linktowebsite:"https://simmer-hackthenorth.netlify.app/",
+          linktogithub:"https://github.com/andywu8/simmer",
+          description: "Hack the North. ReactJS, Vonage API, Spoonacular API, Firebase. I worked on the Firebase backend.",
+          image: simmer_pic
+        },
+        {
+          name: "LocalScale",
+          linktowebsite:"localscale.netlify.app",
+          linktogithub:"https://github.com/andywu8/localscale",
+          description: "Hack the North. Built using Figma, HTML, CSS, Javascript, and Firebase. I worked on the firebase login system, created the routes, added in user profile customization, created payment page, linked all of the pages together",
+          image: localscale_pic
+        },
         {
           name: "Join Us Web Application",
           linktowebsite:"https://andywu8.github.io/JoinUs/",
@@ -94,7 +118,7 @@ class Temp_Portfolio extends React.Component {
                 <div className="row">
                     <div className="col-sm-12">
                         <div className="title-box text-center">
-                            <h3 className="title-a">Temp Portfolio</h3>
+                            <h3 className="title-a">Portfolio</h3>
                             <p className="subtitle-a">
                             These are some of the cool projects I've made! Be sure to check them out!
                             </p>
