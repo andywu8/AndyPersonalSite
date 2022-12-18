@@ -63,7 +63,7 @@ class About extends React.Component {
           id: "first-p-about",
           // heading: "Relevant Coursework:",
           content:
-            "I'm a junior at Yale double majoring in Computer Science/Economics and Statistics."
+            "I'm a senior at Yale double majoring in Computer Science/Economics and Statistics."
         },
         {
           id: "second-p-about",
