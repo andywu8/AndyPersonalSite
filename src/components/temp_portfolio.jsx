@@ -49,42 +49,7 @@ class Temp_Portfolio extends React.Component {
           linktogithub:"https://github.com/andywu8/JoinUs",
           description: "NodeJS, Express, HTML, CSS, Javascript",
           image: joinuspic
-        },
-        {
-          name: "To Do List",
-          linktowebsite:"",
-          linktogithub:"https://github.com/andywu8/ToDoList",
-          description: "Dyanmic to do list which allows you to create new to do lists with different websites and retains information using MongoDB. Has deleted functionality. Coded in: Javascript, EJS, CSS, Html, Mongo",
-          image: todolistpic
-        },
-        {
-          name: "Andy Space",
-          linktowebsite:"https://andy-blog-website.herokuapp.com/",
-          linktogithub:"https://github.com/andywu8/my-blog",
-          description: "MySpace AndySpace haha. Blog website which allows users to submit new posts through a compose page and delete previous posts",
-          image: blogpic   
-        },
-        {
-          name: "Mail Chimp Sign Up App",
-          linktowebsite:"https://newsletter-signup-andy.herokuapp.com/",
-          linktogithub:"https://github.com/andywu8/MailChimp_API",
-          description: "You can sign up to my newsletter with this simple form. This was coded in Javascript, CSS, Html, and used the MailChimp API.",
-          image: newsletterpic
-        },
-        {
-          name: "Color Guessing Game",
-          linktowebsite:"https://andywu8.github.io/Color-Guessing-Game/",
-          linktogithub:"https://github.com/andywu8/Color-Guessing-Game",
-          description: "Coded in HTML, CSS, Javascript",
-          image: colorgamepic
-        },
-        {
-          name: "Music Player App",
-          linktowebsite:"",
-          linktogithub:"https://github.com/andywu8/MusicPlayer_IOS",
-          description: "IOS app that randomly plays songs from your library depending on the buttons.",
-          image: musicplayerpic
-        },
+        }
       ]
     };
   }

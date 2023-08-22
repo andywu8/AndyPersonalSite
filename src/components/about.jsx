@@ -10,18 +10,18 @@ class About extends React.Component {
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
-        {
-          id: "ReactNative_skill",
-          content: "ReactNative",
-          porcentage: "80%",
-          value: "80"
+          porcentage: "100%",
+          value: "100"
         },
         {
           id: "Python_skill",
           content: "Python",
+          porcentage: "100%",
+          value: "100"
+        },
+        {
+          id: "ReactNative_skill",
+          content: "ReactNative",
           porcentage: "80%",
           value: "80"
         },
@@ -50,12 +50,6 @@ class About extends React.Component {
           content: "Mongo",
           porcentage: "60%",
           value: "60"
-        },
-        {
-          id: "Swift",
-          content: "Swift",
-          porcentage: "25%",
-          value: "25"
         }
       ],
       about_me: [
@@ -63,7 +57,7 @@ class About extends React.Component {
           id: "first-p-about",
           // heading: "Relevant Coursework:",
           content:
-            "I'm a senior at Yale double majoring in Computer Science/Economics and Statistics."
+            "I'm a new graduate from Yale where I double majored in Computer Science/Economics and Statistics/Data Science."
         },
         {
           id: "second-p-about",
@@ -82,12 +76,6 @@ class About extends React.Component {
           heading: "Extracurriculars",
           content:
             "President of Yale Computer Society, Director of Yhack, Treasurer of Dwight Hall Socially Responsible Investment Fund, TSAI City Student Advisory Board, Stars I"
-        },
-        {
-          id: "fourth p-about",
-          heading: "Volunteer Work",
-          content:
-            "Event Producer Intern for Human Growth Foundation, Key Club President, Read Write Discover Branch Coordinator"
         },
         {
           id: "fifth p-about",
@@ -110,10 +98,19 @@ class About extends React.Component {
       ],
       work_experience: [
         {
+          role:"Software Engineer Intern",
+          company: "Meta",
+          linktocompany: "https://www.google.com/search?q=meta&oq=meta+&aqs=chrome..69i57j69i60j69i65l3j69i60.2665j0j4&sourceid=chrome&ie=UTF-8",
+          date: "May 2022 - August 2022",
+          id: "second-p-about",
+          content:
+            "Through the use of DPer3, Pytorch, Presto, SQL, and Bento notebooks, optimized the configuration for the Instagram multi-ads multi-task multi-label relevance model, which improved ad relevance classification by 25%. Implemented Dataswarm pipelines in SQL to deliver key labels (click, rater, taxon, priority queue, related) to the relevance model, allowing for experimental label iteration and task iteration that allowed for identification of key labels to include in the model"
+        },
+        {
           role:"Full Stack Developer",
           company: "PPE4NYC",
           linktocompany: "https://www.ppe4all.net/",
-          date: "August 2020 - Present",
+          date: "August 2020 - February 2022",
           id: "second-p-about",
           content:
             "Currently working at a nonprofit and developing the website which has enabled PPE4NYC to deliver 10,000 PPE to people in need. Currently working on a content management system in Javascript. Also developing in ReactJS/Gatsby."
@@ -128,15 +125,6 @@ class About extends React.Component {
             "Created an API for the cloud onboarding team, which expedited the onboarding process through generated a report which allowed for easy tracking of users and their onboarding status. "
         },
         {
-          role:"Software Engineering Intern",
-          company: "Bright Building",
-
-          date: "January 2021 - August 2021",
-          id: "second-p-about",
-          content:
-            "Revamped the sidebar using ReactJS and NodeJS and also worked on data pipelines in Flask and Python."
-        },
-        {
           role:"Machine Learning Intern",
           company: "Yale Intelligent Computing Lab",
           linktocompany: "https://intelligentcomputinglab.yale.edu/",
@@ -144,15 +132,6 @@ class About extends React.Component {
           id: "third-p-about",
           content:
             "Trained and evaluated performance of spiking and artificial neural networks. Coded in Pytorch on Google Colab. Research found that spiking neural networks, a novel neural network that ran on a spiking time dependent framework had more adversarial robustness and energy efficiency than the artificial neural network"
-        },
-        {
-          role:"Open Climate Collabathon Coordinator",
-          company: "Yale OpenLab",
-          linktocompany: "https://www.collabathon.openclimate.earth/",
-          date: "February 2020 - December 2020",
-          id: "fourth p-about",
-          content:
-            "Planned, marketed, and handled logistics of a global open source initiative to tackle climate change through blockchain solutions. Led the node iniative and onboarded 14 nodes. Created 2 slide decks and improved node registration system making it easier to onboard."
         }
       ]
     };
