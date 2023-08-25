@@ -6,12 +6,7 @@ import stock2 from "../img/image3.jpg";
 import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
-import todolistpic from "../img/todolist.png";
 import joinuspic from "../img/joinus.png";
-import blogpic from "../img/blog.png";
-import newsletterpic from "../img/newsletter.png"
-import colorgamepic from "../img/colorgame.png";
-import musicplayerpic from "../img/musicplayer.png";
 import localscale_pic from "../img/localscale_pic.png";
 import simmer_pic from "../img/simmer_pic.png";
 import predictai_pic from "../img/predictai_pic.png";

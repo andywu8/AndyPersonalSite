@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "418ec1ecc30e94150ccf11ce99aad383",
+    "revision": "37974c2778d5dd68930ad0b2352dfbc7",
     "url": "./index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.4439b770.chunk.css"
   },
   {
-    "revision": "382b830d9fe8237ec7da",
-    "url": "./static/css/main.35508eea.chunk.css"
+    "revision": "26cc8309ed0bce6a810f",
+    "url": "./static/css/main.1fafb586.chunk.css"
   },
   {
     "revision": "54ebea7f9ee4a4ce66ff",
@@ -20,20 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.234f89a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "382b830d9fe8237ec7da",
-    "url": "./static/js/main.1c2171e9.chunk.js"
+    "revision": "26cc8309ed0bce6a810f",
+    "url": "./static/js/main.89d0ea47.chunk.js"
   },
   {
     "revision": "610a38b7b5a7cb7b2d5e",
     "url": "./static/js/runtime-main.916853f0.js"
-  },
-  {
-    "revision": "f668a9b38f3f803fbded4a25d4d5a410",
-    "url": "./static/media/blog.f668a9b3.png"
-  },
-  {
-    "revision": "79cd9f760e60e350befbf1f7739e2ead",
-    "url": "./static/media/colorgame.79cd9f76.png"
   },
   {
     "revision": "67af05e12311bac06327b43ca31e166b",
@@ -116,16 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/male1.f8cf62a3.png"
   },
   {
-    "revision": "6d453631dd274024381362a306437cb2",
-    "url": "./static/media/musicplayer.6d453631.png"
-  },
-  {
     "revision": "bd80794fddbffb4031fab537cc898680",
     "url": "./static/media/myImage.bd80794f.png"
-  },
-  {
-    "revision": "b427734de3a0598e92a8765365f798fb",
-    "url": "./static/media/newsletter.b427734d.png"
   },
   {
     "revision": "7a9290d7bcdc0c3742f1475a05994e5c",
@@ -134,9 +118,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a76004038cb5b7bba1bf3b8f01fa7ce",
     "url": "./static/media/simmer_pic.9a760040.png"
-  },
-  {
-    "revision": "ea42b91f720135121a4328bdd151aea9",
-    "url": "./static/media/todolist.ea42b91f.png"
   }
 ]);
